@@ -1,0 +1,51 @@
+.body {
+	background-color: #161616;
+}
+
+.header {
+	padding: 4em 1em;
+}
+.header__logo {
+	color: var(--clr-primary);
+	display: block;
+	margin-inline: auto;
+	margin-bottom: 2em;
+	width: 4em;
+}
+
+#scroll {
+	max-width: 128ch;
+	margin-inline: auto;
+	margin-bottom: 8em;
+}
+
+.step {
+	padding: 16em 4em;
+}
+
+.step__quote {
+	background-color: #a2999033;
+	padding: 1em;
+}
+
+.map {
+	padding: 1em;
+	width: 100%;
+	fill: #555;
+}
+
+.footer {
+	background-color: var(--clr-primary);
+	border-top: #555 dashed .5em;
+	padding: 4em;
+	width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 700px) {
+	.step {
+		padding: 24em 8em;
+	}
+}
