@@ -1,0 +1,8 @@
+@import "reset.css";
+@import "scroll.css";
+@import "typography.css";
+@import "layout.css";
+
+:root {
+	--clr-primary: #ece3e3;
+}
