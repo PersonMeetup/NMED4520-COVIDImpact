@@ -3,32 +3,47 @@
 .step__text,
 .step__quote,
 .step__emphasis {
-	color: var(--clr-primary);
+  color: var(--clr-neutral-100);
+}
+
+.header__title,
+.header__subtitle,
+.step__quote,
+.step__emphasis {
+  font-family: "Bitter", serif;
 }
 
 .header__title {
-	margin-bottom: 1em;
-	font-size: 2.5rem;
-	text-align: center;
+  margin-bottom: 1em;
+  font-weight: 800;
+  font-size: 2.5rem;
+  text-align: center;
 }
 .header__subtitle {
-	font-size: 1.5rem;
-	text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
 }
 
 .step__text {
-	margin-bottom: 8em;
-	font-size: 1.25rem;
+  margin-bottom: 8em;
+  font-size: 1.25rem;
 }
 .step__quote {
-	margin: 0 2em 8em;
-	font-style: italic;
-	font-size: 1.625rem;
-
+  margin: 0 0 8em;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.625rem;
 }
 .step__emphasis {
-	padding-bottom: 16em;
-	font-weight: 600;
-	font-size: 2rem;
-	text-align: center;
+  padding-bottom: 20em;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+}
+
+@media only screen and (min-width: 700px) {
+  .step__quote {
+    margin: 0 2em 8em;
+  }
 }

@@ -4,13 +4,14 @@
 
 .scroll__graphic {
   position: sticky;
-	position: -webkit-sticky;
-	top: 25vh;
-	z-index: -1;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: -1;
+  height: 100vh;
 }
 
 .scroll_text {
-	padding: 0 1rem;
+  padding: 0 1rem;
   max-width: 30rem;
 }
 
@@ -22,8 +23,9 @@
   border: 4px #fc0 dashed;
 }
 
+/*
 @media only screen and (min-width: 700px) {
-	.scroll__graphic {
-		top: 15vh;
-	}
-}
+  .scroll__graphic {
+    top: 0;
+  }
+}*/

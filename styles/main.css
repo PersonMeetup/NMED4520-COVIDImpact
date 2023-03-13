@@ -4,5 +4,13 @@
 @import "layout.css";
 
 :root {
-	--clr-primary: #ece3e3;
+  /* COLOURS */
+  --clr-neutral-100: #ece3e3;
+  --clr-neutral-200: #555;
+  --clr-neutral-300: #161616;
+  --clr-primary: #ab4e46;
+  --clr-secondary: #326bb3;
+
+  /* OTHER */
+  --breakpoint: 700px;
 }
