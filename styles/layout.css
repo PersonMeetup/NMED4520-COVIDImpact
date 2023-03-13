@@ -20,7 +20,7 @@
 }
 
 .step {
-  padding: 16em 4em;
+  padding: 0 4em 16em;
 }
 
 .step__quote {
@@ -32,6 +32,7 @@
   margin: auto 0;
   padding: 1em;
   width: 100%;
+  height: 100%;
   fill: var(--clr-neutral-200);
 }
 
@@ -47,6 +48,6 @@
 
 @media only screen and (min-width: 700px) {
   .step {
-    padding: 24em 8em;
+    padding: 0 8em 24em;
   }
 }
