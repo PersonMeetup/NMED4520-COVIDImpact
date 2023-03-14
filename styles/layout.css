@@ -20,7 +20,7 @@
 }
 
 .step {
-  padding: 0 4em 16em;
+  padding: 0 1em 16em;
 }
 
 .step__quote {
@@ -28,11 +28,16 @@
   padding: 1em;
 }
 
-.map {
+#shop {
+  display: none;
+}
+
+#map {
+  position: relative;
   margin: auto 0;
   padding: 1em;
   width: 100%;
-  height: 100%;
+  height: 68%;
   fill: var(--clr-neutral-200);
 }
 

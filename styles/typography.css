@@ -27,13 +27,13 @@
 
 .step__text {
   margin-bottom: 8em;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 .step__quote {
   margin: 0 0 8em;
   font-weight: 500;
   font-style: italic;
-  font-size: 1.625rem;
+  font-size: 1.125rem;
 }
 .step__emphasis {
   padding-bottom: 20em;
@@ -43,7 +43,11 @@
 }
 
 @media only screen and (min-width: 700px) {
+  .step__text {
+    font-size: 1.25rem;
+  }
   .step__quote {
     margin: 0 2em 8em;
+    font-size: 1.625rem;
   }
 }
