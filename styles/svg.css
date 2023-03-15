@@ -1,0 +1,151 @@
+/* shop.svg */
+
+.shop--1 {
+  fill: none;
+}
+
+.shop--1,
+.shop--2,
+.shop--3,
+.shop--4,
+.shop--5,
+.shop--6,
+.shop--7,
+.shop--8 {
+  stroke: #000;
+  stroke-miterlimit: 10;
+}
+
+.shop--2 {
+  fill: gray;
+}
+
+.shop--3 {
+  fill: #999;
+}
+
+.shop--9 {
+  fill: #e6e6e6;
+}
+
+.shop--4 {
+  fill: #666;
+}
+
+.shop--5 {
+  fill: #b3b3b3;
+}
+
+.shop--6 {
+  fill: url(#linear-gradient);
+}
+
+.shop--7 {
+  fill: url(#linear-gradient-2);
+}
+
+.shop--8 {
+  fill: #dccec5;
+}
+
+/* dining.svg */
+
+.dining--1 {
+  fill: #a67c52;
+}
+
+.dining--1,
+.dining--2,
+.dining--3,
+.dining--4,
+.dining--5,
+.dining--6,
+.dining--7 {
+  stroke: #000;
+  stroke-miterlimit: 10;
+}
+
+.dining--2 {
+  fill: #754c24;
+}
+
+.dining--3 {
+  fill: #666;
+}
+
+.dining--4 {
+  fill: url(#Dark_Sky_Gradient);
+}
+
+.dining--5 {
+  fill: #fff;
+}
+
+.dining--6 {
+  fill: #8c6239;
+}
+
+.dining--7 {
+  fill: #dccec5;
+}
+
+/* computer.svg */
+
+.computer--1 {
+  fill: #6b503f;
+}
+
+.computer--1,
+.computer--2,
+.computer--3,
+.computer--4,
+.computer--5,
+.computer--6,
+.computer--7,
+.computer--8,
+.computer--9,
+.computer--10,
+.computer--11 {
+  stroke: #000;
+  stroke-miterlimit: 10;
+}
+
+.computer--2 {
+  fill: #a67c52;
+}
+
+.computer--3 {
+  fill: #ccc;
+}
+
+.computer--4 {
+  fill: #a58470;
+}
+
+.computer--5 {
+  fill: #8d6a5b;
+}
+
+.computer--6 {
+  fill: url(#Dark_Sky_Gradient);
+}
+
+.computer--7 {
+  fill: url(#outside-gradient);
+}
+
+.computer--8 {
+  fill: #fff;
+}
+
+.computer--9 {
+  fill: #e8d2c6;
+}
+
+.computer--10 {
+  fill: #b39080;
+}
+
+.computer--11 {
+  fill: #cfb3a5;
+}

@@ -2,7 +2,7 @@
   position: relative;
 }
 
-.scroll__graphic {
+#scroll__graphic {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -10,22 +10,6 @@
   height: 100vh;
 }
 
-.scroll_text {
-  padding: 0 1rem;
-  max-width: 30rem;
+.scroll__text {
+  padding: 0 2em;
 }
-
-.step {
-  padding: 1rem;
-}
-
-.step.step--active {
-  border: 4px #fc0 dashed;
-}
-
-/*
-@media only screen and (min-width: 700px) {
-  .scroll__graphic {
-    top: 0;
-  }
-}*/

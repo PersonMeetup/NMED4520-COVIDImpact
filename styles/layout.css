@@ -1,26 +1,30 @@
 .body {
   background-color: var(--clr-neutral-300);
+  overflow-x: hidden;
 }
 
 .header {
-  padding: 4em 1em;
+  padding: 2em 1em;
 }
 .header__logo {
   color: var(--clr-neutral-100);
   display: block;
   margin-inline: auto;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   width: 4em;
+}
+.header__subtitle {
+  max-width: 80ch;
+  margin-inline: auto;
 }
 
 #scroll {
   max-width: 128ch;
   margin-inline: auto;
-  margin-bottom: 8em;
 }
 
 .step {
-  padding: 0 1em 16em;
+  padding: 0 0 24em;
 }
 
 .step__quote {
@@ -28,17 +32,9 @@
   padding: 1em;
 }
 
-#shop {
-  display: none;
-}
-
-#map {
-  position: relative;
-  margin: auto 0;
-  padding: 1em;
-  width: 100%;
-  height: 68%;
-  fill: var(--clr-neutral-200);
+.step__source {
+  height: 1.25rem;
+  color: var(--clr-secondary);
 }
 
 .footer {
@@ -51,8 +47,39 @@
   max-width: 100%;
 }
 
+.footer__article {
+  margin-inline: auto;
+  max-width: 128ch;
+}
+
+.footer__details {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+.details {
+  flex-basis: 100%;
+}
+.details__tag {
+  text-align: center;
+  cursor: pointer;
+  background-color: var(--clr-secondary);
+  color: var(--clr-neutral-100);
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+  border-radius: 0.15em;
+}
+
 @media only screen and (min-width: 700px) {
+  .header {
+    padding: 4em 1em;
+  }
   .step {
-    padding: 0 8em 24em;
+    padding: 0 8em 28em;
+  }
+  .footer__details {
+    flex-direction: row;
   }
 }

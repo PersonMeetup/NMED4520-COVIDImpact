@@ -1,0 +1,59 @@
+/* STEP 0 */
+.scroll__graphic--step0 {
+  /* Insert Boats Here */
+}
+
+/* STEP 2 */
+
+.scroll__graphic--step2 #CN {
+  fill: var(--clr-primary);
+}
+
+/* STEP 3 */
+
+.scroll__graphic--step3 #shop {
+  opacity: 1;
+}
+
+/* STEP 4 */
+
+.scroll__graphic--step4 #dining {
+  opacity: 1;
+}
+.scroll__graphic--step4 #computer {
+  opacity: 1;
+}
+
+/* STEP 6 */
+
+.scroll__graphic--step6 {
+  /* Insert Boats Here (But Not As Many) */
+}
+
+/* STEP 7 */
+
+.scroll__graphic--step7 #RU {
+  animation: russiaPulse 3s ease forwards infinite;
+}
+
+.scroll__graphic--step7 #UA {
+  fill: var(--clr-secondary);
+}
+
+.scroll__graphic--step7 #shop {
+  display: none;
+}
+.scroll__graphic--step7 .scroll__graphic--double {
+  display: none;
+}
+
+/* ANIMATIONS */
+
+@keyframes russiaPulse {
+  50% {
+    fill: var(--clr-primary);
+  }
+  100% {
+    fill: var(--clr-neutral-200);
+  }
+}
